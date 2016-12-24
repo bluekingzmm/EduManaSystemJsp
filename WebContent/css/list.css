@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+
+.table {
+	border: 2px solid #808080;
+	width: 800px;
+	height: auto;
+}
+
+.table tr {
+	width: 200px;
+	text-align: center;
+	background: #dba8bd;
+	height: 50px;
+}
+
+h4 {
+	text-align: center;
+}
+
+.input {
+	text-align: center;
+}
+
+.input a {
+	text-decoration: none;
+	cursor: crosshair;
+	font-size: 24px;
+}
+
+.table tr:HOVER {
+	background: #f0f0f0;
+}
+
+.table tr td a {
+	text-decoration: none;
+	cursor: crosshair;
+}

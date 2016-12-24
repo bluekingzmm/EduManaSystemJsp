@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0 auto;;
+	padding: 0px;
+}
+
+#section {
+	width: 100%;
+	float: left;
+}
+
+.header {
+	width: 100%;
+	background: #8080ff;
+	height: 60px;
+}
+
+.nav ul li {
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	width: 150px;
+	text-align: center;
+	line-height: 4em;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #f0f0f0;
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 60px;
+
+}
+
+.nav {
+	width: 1000px;
+}
+
+.nav ul li a:HOVER {
+	text-decoration: underline;
+	background: #a346ff;
+	width: 100px;
+
+}

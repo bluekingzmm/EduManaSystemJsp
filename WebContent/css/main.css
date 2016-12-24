@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 100px;
+	padding: 0;
+	background-color: #E4E8EC;
+	font-size: 20px;
+}
+
+#content {
+	background-color: #e3e3e3;
+	border: 2px #c0c0c0 dashed;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.table tr td {
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: center;
+	width: 120px;
+	padding-left: 25px;
+}
+
+.admin {
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7), 0px 2px 0
+		rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: #666;
+	letter-spacing: 12px;
+	font: normal 22px Microsoft YaHei;
+}
+
+.admin h2 {
+	margin-top: 30px;
+}
+
+.table select {
+	width: 100%;
+}
+
+.denglu {
+	text-align: center;
+	padding-left: 60px;
+}
+
+.findpsw {
+	text-align: right;
+	padding-top: 30px;
+}
+
+.findpsw a:HOVER {
+	color: red;
+}
